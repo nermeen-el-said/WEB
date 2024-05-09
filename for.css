@@ -1,0 +1,318 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* الناف */
+.navbar {
+    background-color: rgba(7, 34, 9, 0.767);
+}
+.navbar-brand{
+     margin-left: 100px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav-link{
+    margin-left: 60px;
+}
+.d-flex{
+    margin-right: 100px;
+}
+.dropdown-menu a {
+   background-color:rgba(7, 34, 9, 0.568) ;
+}
+/*المقطع الصوره الكبيرة */
+.div img  {
+    width: 100%;
+    height: 480px; 
+    margin-top: -1px;
+}
+.div h3{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+.div p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.div a{
+    margin-top: -20px;
+    margin-left: 20px;
+}
+ /* مقطع الايقونات   */
+.divone{
+ background-color: rgba(23, 100, 28, 0.756);
+ margin-top: -2px;
+}
+.divone h1 {
+   font-family:serif;
+   margin-top: 20px;
+}
+.divone pre {
+    font-family:Georgia, 'Times New Roman', Times, serif
+ }
+span {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin: 8px;
+    background-color: #fefefeec;
+  }
+  .divone h6{
+   margin-top: 25px;
+  }
+  /* المقطع التالت صور*/
+/* الاول  */
+.d{
+    width: 1000px;
+    height: 370px;
+    margin-left: 130px;
+    margin-top: 80px;
+    margin-bottom:50px ;
+
+}
+.d img{
+    width: 350px;
+    height: 350px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.d h4{
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(14, 66, 69, 0.785);
+}
+.d pre{
+    margin-top: 20px;
+    font-family:initial;
+    margin-left: 10px;
+}
+.d h5{
+    font-family:initial;
+}
+/* التاني */
+.dd{
+    width: 1000px;
+    height: 370px;
+    margin-left: 130px;
+    margin-top: 80px;
+    margin-bottom:50px ;
+}
+.dd img{
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+    margin-bottom:20px;
+    margin-top: 10px;
+}
+.dd h4{
+    margin-left: 90px;
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(14, 66, 69, 0.785);
+}
+.dd pre{
+    margin-top: 20px;
+    font-family:initial;
+    margin-left: 90px;
+}
+.dd h5{
+    font-family:initial;
+    margin-left: 90px;
+}
+/* التالت */
+.ddd{
+    width: 1000px;
+    height: 370px;
+    margin-left: 130px;
+    margin-top: 80px;
+    margin-bottom:50px ; 
+}
+.ddd img{
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.ddd h4{
+    margin-top: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(14, 66, 69, 0.785);
+}
+.ddd pre{
+    margin-top: 20px;
+    font-family:initial;
+}
+.ddd h5{
+    font-family:initial;
+}
+/* اللمديا كويري */
+/*  المساحه من 1200 لي990*/
+@media (max-width:1200px) {
+    .navbar-brand{
+        margin-left: 0px; 
+    }
+    .nav-link{
+       margin-left: 20px;
+    }
+    .d-flex{
+       margin-right: 90px;
+    }
+    .d{
+        margin-left: 5px;
+        width: 970px;
+    } 
+    .dd{
+        margin-left: 5px;
+        width: 970px;
+    }
+    .ddd{
+        margin-left: 5px;
+        width: 970px;
+    }
+}
+/* المساحه من 990لي650 */
+@media (max-width:990px){
+    .div h3{
+        margin-left: -10px;
+    }
+    .div p{
+        margin-left: 0px;
+    }
+    .div a{
+        margin-left: 10px;
+    }
+    span {
+        width: 140px;
+        height: 120px;
+        margin: 20px;
+      }
+      .d{
+        width: 600px;
+        height: 450px;
+        margin-left: 10px;
+    }
+    .d img{
+        width: 300px;
+        height: 300px;
+        margin-left: 100px;
+        margin-top: -50px;
+    }
+    .dd{
+        width: 600px;
+        height: 450px;
+        margin-left: 10px;
+    }
+    .dd img{
+        width: 300px;
+        height: 300px;
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    .dd h4{
+        margin-left: 10px;
+    }
+    .dd pre{
+        margin-left: 10px;
+    }
+    .dd h5{
+        margin-left: 10px;
+    }
+    .ddd{
+        width: 600px;
+        height: 450px;
+        margin-left: 10px;
+    }
+    .ddd img{
+        width: 300px;
+        height: 300px;
+        margin-left: 100px;
+        margin-top: -50px;
+    }
+
+}
+/* المساحه من 650 للاخر*/
+@media (max-width:650px){
+    .div h3{
+        margin-top: -10px;
+    }
+    .div p{
+        font-size: x-small;
+        margin-left:5px;
+    }
+    .divone pre{
+        font-size: x-small;
+    }
+    .div a{
+        margin-left: -10px;
+    }
+    span {
+        width: 160px;
+        height: 140px;
+        margin: 8px;
+        margin-right: 10px;
+      }
+      .d{
+        width: 365px;
+        height: 370px;
+        margin-left: 3px; 
+    }
+    .d img{
+        width: 250px;
+        height: 250px;
+        margin-left: 60px;
+        margin-bottom: 10px;
+        margin-top: -40px;
+    }
+    .d pre{
+      font-size: x-small;
+    }
+    .d h5{
+      font-size: x-small;
+      margin-left: 10px;
+    }
+    .dd{
+        padding-top: 30px;
+        width: 365px;
+        height: 370px;
+        margin-left: 3px;
+    }
+    .dd img{
+        width: 250px;
+        height: 250px;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .dd h4{
+        margin-top: -20px;
+    }
+    .dd pre{
+        margin-top: 10px;
+      font-size: x-small;
+    }
+    .dd h5{
+      font-size: x-small;
+      margin-left: 10px;
+    }
+    .ddd{
+        width: 365px;
+        height: 370px;
+        margin-left: 3px;
+        padding-top: 20px;
+    }
+    .ddd img{
+        width: 250px;
+        height: 250px;
+        margin-left: 60px;
+        margin-bottom: 10px;
+        margin-top: -40px;
+    }
+    .ddd pre{
+      font-size: x-small;
+    }
+    .ddd h5{
+      font-size: x-small;
+      margin-left: 10px;
+    }
+}
